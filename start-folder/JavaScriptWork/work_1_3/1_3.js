@@ -4,7 +4,7 @@ const addTax = total => total * 1.1;
 
 const total = getTotalPrice(1000, 2); // → 2000
 
-console.log(total);
+console.log(`税込金額は${total}円です`);
 
 const taxedTotal = addTax(total);     // → 2200
 
